@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch fibonnaci",
+            "request": "launch",
+            "mainClass": "fibonnaci",
+            "projectName": "ApplicationProgramming_7f7b75d6"
+        },
+        {
+            "name": "PowerShell Attach to Host Process",
+            "type": "PowerShell",
+            "request": "attach",
+            "runspaceId": 1
+        },
+        {
+            "name": "PowerShell Launch Current File",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${file}"
+        }
+    ]
+}
